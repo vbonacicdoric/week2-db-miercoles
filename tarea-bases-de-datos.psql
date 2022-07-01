@@ -117,3 +117,4 @@ INSERT INTO bookings (customer_id, hotel_id, checkin_date, nights) VALUES (8, 5,
 INSERT INTO bookings (customer_id, hotel_id, checkin_date, nights) VALUES (8, 8, '2019-12-25', 4);
 --desarrollo ejercicio 5
 SELECT * FROM customers WHERE name = 'Laurence Lebihan';
+SELECT * FROM customers WHERE address = 'Uk';
